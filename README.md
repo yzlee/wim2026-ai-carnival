@@ -1,16 +1,13 @@
-# 3D会议演示 · GitHub Pages发布
+# WIM × 独行录千人AI嘉年华 · 3D演示
 
-网页打开后会自动演示两层会场与跨层见面的故事，完整角色流程在“按身份看全过程”里。
+公开演示：https://yzlee.github.io/wim2026-ai-carnival/
 
-这是静态网页演示，使用示例人物和交互数据，无需账号或后端。
+打开首页自动播放一个20秒的例子，播完自动循环：林悦想学用AI找客户，AI找到愿意教她的许安，许安主动发邀请，两人在现场边看边问，离场后继续在App联系。
 
-1. 将此目录中的 `index.html`、`.nojekyll` 和 `LICENSE-THREE.txt` 上传到选定GitHub仓库的根目录。
-2. 打开仓库 **Settings → Pages → Build and deployment**。
-3. Source选择 **Deploy from a branch**，Branch选择 **main**，目录选择 **/(root)**，保存。
-4. 等GitHub Pages发布完成，页面会显示可分享的网址，通常为 `https://用户名.github.io/仓库名/`。
+点“看完整过程，自己试”，选择观众、嘉宾、分享者、广告商、主办方、VIP或线上参与者。故事每步6秒，点手机按钮可以自己试；点“重看这一步”还原，点“返回20秒介绍”回首页。
 
-发布包只需网页文件。源码内部路径、`evidence`、真实Excel和下载的用户资料不属于发布内容。
+WIM在3楼的三个独立房间；嘉年华在5楼的一个密集大厅，整厅与WIM单个分论坛等面积。厅内有许多分享点、自由讨论小组和一对一洽谈位。人数与点位仅为示意，独行录千人指累计报名，按想参加的时段流动。
 
-操作入口以仓库实际可选分支为准；如果默认分支不是main，选择存放网页文件的分支。
+单文件HTML自带3D引擎，无需登录和外部服务。网页、小程序与App的功能为会议方案演示，人物、数字、消息及合作草案均为例子，不会真的发送邀请。未包含亿欧用户数据库或工作表。
 
-[GitHub Pages官方说明](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)
+仓库main分支根目录通过GitHub Pages发布。Three.js采用MIT许可，见LICENSE-THREE.txt。
